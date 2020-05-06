@@ -23,6 +23,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
+    contents: pipelines-javascript/**
     targetFolder: '$(Build.ArtifactStagingDirectory)'    
 
 - task: PublishBuildArtifacts@1    
