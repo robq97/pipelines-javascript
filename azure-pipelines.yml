@@ -24,6 +24,8 @@ steps:
   inputs: 
     pathtoPublish: $(Build.ArtifactStagingDirectory) # dist or build files
     ArtifactName: 'www' # output artifact named www
+    publishLocation: 'Container'
+    
     
 
 
